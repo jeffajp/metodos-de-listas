@@ -36,10 +36,14 @@ do
     {
         case 1:
             Console.WriteLine("seleccione la comida: ");
+            Console.WriteLine("pizza...");
+            Console.WriteLine("hamburguesa...");
             break;
 
         case 2:
             Console.WriteLine("seleccione comida en casa: ");
+            Console.WriteLine("huevo...");
+            Console.WriteLine("pan...");
             break;
       
         default:
