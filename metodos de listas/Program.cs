@@ -30,7 +30,23 @@ do
     Console.WriteLine("3. salir: ");
 
     opcion = int.Parse(Console.ReadLine());
+    Console.Clear();
 
+    switch (opcion)
+    {
+        case 1:
+            Console.WriteLine("seleccione la comida: ");
+            break;
+
+        case 2:
+            Console.WriteLine("seleccione comida en casa: ");
+            break;
+      
+        default:
+            Console.WriteLine("gracias por usar el menu: ");
+            break;
+
+    }
 
 
 } while (opcion != 3);
