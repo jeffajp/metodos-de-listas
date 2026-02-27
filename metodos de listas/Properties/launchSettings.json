@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "metodos de listas": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
